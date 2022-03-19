@@ -1,0 +1,201 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: rgb(24, 24, 77);
+  position: relative;
+}
+
+h1 {
+  color: #e5ff00;
+}
+
+h1 .ex {
+  color: aqua;
+}
+
+.form {
+  width: 360px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+
+.form input {
+  width: 95%;
+  height: 100%;
+  border: none;
+  border-bottom: 3px solid #e9fa01;
+  outline: none;
+  background-color: rgb(24, 24, 77);
+  color: white;
+}
+
+#box1 {
+  position: relative;
+}
+
+#box1 #info1 {
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  color: yellow;
+}
+
+#box2 {
+  position: relative;
+}
+
+#box2 #info2 {
+  position: absolute;
+  bottom: -4px;
+  color: yellow;
+  left: 0px;
+}
+
+#box3 {
+  position: relative;
+}
+
+#box3 #info3 {
+  position: absolute;
+  bottom: -4px;
+  color: yellow;
+  left: 0px;
+}
+
+#box4 {
+  position: relative;
+}
+
+#box4 #info4 {
+  position: absolute;
+  bottom: -4px;
+  color: yellow;
+  left: 0px;
+}
+
+#box1 #label-username::after {
+  content: "";
+  width: 360px;
+  position: absolute;
+  bottom: -5px;
+  border-bottom: 3px solid #63ffff;
+
+  transform: translateX(-200%);
+  transition: 0.3s ease;
+}
+
+#box2 #label-name::after {
+  content: "";
+  width: 360px;
+  position: absolute;
+  bottom: -5px;
+  border-bottom: 3px solid #63ffff;
+
+  transform: translateX(-200%);
+  transition: 0.3s ease;
+}
+
+#box3 #label-password::after {
+  content: "";
+  width: 360px;
+  position: absolute;
+  bottom: -5px;
+  border-bottom: 3px solid #63ffff;
+
+  transform: translateX(-200%);
+  transition: 0.3s ease;
+}
+
+#box4 #label-phonenumber::after {
+  content: "";
+  width: 360px;
+  position: absolute;
+  bottom: -5px;
+  border-bottom: 3px solid #63ffff;
+
+  transform: translateX(-200%);
+  transition: 0.3s ease;
+}
+
+#box1 #username:focus + #label-username #info1,
+#box1 #username:valid + #label-username #info1 {
+  transform: translateY(-25px);
+  color: aqua;
+}
+
+#box1 #username:focus + #label-username::after,
+#box1 #username:valid + #label-username::after {
+  transform: translateX(-97%);
+}
+
+#box2 #name:focus + #label-name #info2,
+#box2 #name:valid + #label-name #info2 {
+  transform: translateY(-25px);
+  color: aqua;
+}
+
+#box2 #name:focus + #label-name::after,
+#box2 #name:valid + #label-name::after {
+  transform: translateX(-97%);
+}
+
+#box3 #password:focus + #label-password::after,
+#box3 #password:valid + #label-password::after {
+  transform: translateX(-97%);
+}
+
+#box3 #password:focus + #label-password #info3,
+#box3 #password:valid + #label-password #info3 {
+  transform: translateY(-25px);
+  color: aqua;
+}
+
+#box4 #phonenumber:focus + #label-phonenumber #info4,
+#box4 #phonenumber:valid + #label-phonenumber #info4 {
+  transform: translateY(-25px);
+  color: aqua;
+}
+
+#box4 #phonenumber:focus + #label-phonenumber::after,
+#box4 #phonenumber:valid + #label-phonenumber::after {
+  transform: translateX(-97%);
+}
+
+button {
+  color: aqua;
+  font-weight: 700;
+  background-color: rgb(24, 24, 77);
+  border: 2px solid aquamarine;
+  position: absolute;
+  left: 36%;
+  bottom: 2%;
+  padding: 0.2em 1em;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  color: #63ffff;
+  border-radius: 0.5em;
+  border-color: #63ffff;
+  border-bottom: 3px solid #63ffff;
+  box-shadow: 0 0.07em 0.25em #63ffff;
+  transform: translateY(2px);
+}
+
+#buttonHome {
+  position: absolute;
+  top: 15%;
+  left: 47%;
+}
+
+#buttonHome #home a {
+  color: aqua;
+}

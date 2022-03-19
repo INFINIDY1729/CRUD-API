@@ -1,0 +1,27 @@
+#editBox {
+  width: 100%;
+  top: 60%;
+}
+
+body {
+  position: relative;
+}
+
+#editBox #edit {
+  margin-left: 8%;
+  margin-bottom: 13%;
+  position: absolute;
+  left: 40%;
+  top: 70%;
+}
+
+#form input {
+  width: 95%;
+  height: 100%;
+  border: none;
+  border-bottom: 3px solid #e9fa01;
+  outline: none;
+  background-color: rgb(24, 24, 77);
+  color: white;
+  margin-bottom: 10px;
+}

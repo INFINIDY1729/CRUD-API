@@ -1,0 +1,40 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: rgb(24, 24, 77);
+  color: yellow;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+button {
+  color: aqua;
+  font-weight: 700;
+  background-color: rgb(24, 24, 77);
+  border: 2px solid aquamarine;
+  padding: 0.2em 1em;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  color: #63ffff;
+  border-radius: 0.5em;
+  border-color: #63ffff;
+  border-bottom: 3px solid #63ffff;
+  box-shadow: 0 0.07em 0.25em #63ffff;
+  transform: translateY(2px);
+}
+
+h1 {
+  background: linear-gradient(90.75deg, #faff00 9.77%, #00ffff 91.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

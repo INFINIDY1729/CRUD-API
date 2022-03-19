@@ -1,0 +1,13 @@
+button a {
+  color: aqua;
+}
+
+body {
+  position: relative;
+}
+
+button {
+  position: absolute;
+  left: 46%;
+  top: 8%;
+}

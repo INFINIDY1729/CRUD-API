@@ -1,0 +1,49 @@
+#details {
+  position: absolute;
+  top: 40%;
+}
+h1 {
+  position: absolute;
+  top: 30%;
+
+  background: linear-gradient(90.75deg, #faff00 9.77%, #00ffff 91.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#details p b {
+  color: aqua;
+}
+
+#buttonBox {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+}
+
+#buttonBox a {
+  color: aqua;
+}
+
+#buttonBox #home {
+  position: absolute;
+  margin-left: 42%;
+  top: 60%;
+}
+
+#buttonBox #edit {
+  position: absolute;
+  margin-left: 52%;
+  top: 60%;
+}
+
+#deleteBox {
+  width: 100%;
+  position: absolute;
+  top: 70%;
+}
+
+#deleteBox #delete {
+  margin-left: 47%;
+}

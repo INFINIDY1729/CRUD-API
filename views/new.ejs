@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/animation form.css" />
+    <title>NEW</title>
+  </head>
+  <body>
+    <h1>
+      New-user
+      <span class="ex">!!!</span>
+    </h1>
+    <form action="/userdetails" method="post">
+      <div class="form">
+        <div id="box1">
+          <input
+            type="text"
+            id="username"
+            name="username"
+            required
+            autocomplete="off"
+          />
+          <label for="username" id="label-username"
+            ><span id="info1">User Name</span></label
+          >
+        </div>
+        <div id="box2">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            autocomplete="off"
+          />
+          <label for="name" id="label-name">
+            <span id="info2">Name</span>
+          </label>
+        </div>
+        <div id="box3">
+          <input type="password" name="password" id="password" required />
+          <label for="password" id="label-password">
+            <span id="info3"> Password</span>
+          </label>
+        </div>
+        <div id="box4">
+          <input
+            type="number"
+            name="phonenumber"
+            id="phonenumber"
+            autocomplete="off"
+            required
+          />
+          <label for="phonenumber" id="label-phonenumber"
+            ><span id="info4">Mobile Number</span></label
+          >
+        </div>
+        <div id="box5">
+          <button>Register</button>
+        </div>
+      </div>
+    </form>
+
+    <div id="buttonHome">
+      <button id="home"><a href="/userdetails">Home</a></button>
+    </div>
+  </body>
+</html>
