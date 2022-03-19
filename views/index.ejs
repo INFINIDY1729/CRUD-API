@@ -13,12 +13,14 @@
 
     <button><a href="/userdetails/new">New User</a></button>
 
-    <ul>
-      <% for(let user of users ){ %>
-      <li>
-        <a href="/userdetails/<%= user._id%> "><%= user.name %></a>
-      </li>
-      <% } %>
-    </ul>
+    <div id="userlist">
+      <ul>
+        <% for(let user of users ){ %>
+        <li>
+          <a href="/userdetails/<%= user._id%> "><%= user.name %></a>
+        </li>
+        <% } %>
+      </ul>
+    </div>
   </body>
 </html>
